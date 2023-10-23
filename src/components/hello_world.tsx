@@ -14,6 +14,7 @@ export const HelloWorld = () => {
     const p = new Promise((resolve,reject) => {
         setTimeout(resolve)
     })
+    console.log('abc')
   };
 
   // Renders the view
