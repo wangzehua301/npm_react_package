@@ -14,7 +14,6 @@ export const HelloWorld = () => {
     const p = new Promise((resolve,reject) => {
         setTimeout(resolve)
     })
-    console.log('wzh')
   };
 
   // Renders the view
